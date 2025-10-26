@@ -238,9 +238,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     // Contact Form
     const formData = new FormData();
 formData.append("access_key", "a4e85216-f7be-4ba7-942e-1ea9e89c7733");
-formData.append("name", "John Doe");
-formData.append("email", "john@example.com");
-formData.append("message", "Hello World!");
+formData.append("name", "");
+formData.append("email", "");
+formData.append("message", "");
 
 const response = await fetch("https://api.web3forms.com/submit", {
   method: "POST",
