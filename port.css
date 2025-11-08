@@ -331,6 +331,32 @@ body::after {
   transform: translate(-50%, -50%) scale(1.1);
 }
 
+/* ✅ Profile photo fix for mobile view */
+@media (max-width: 768px) {
+  .avatar-container {
+    width: 240px;
+    height: 240px;
+  }
+
+  .sun-core {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .avatar-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .sun-core {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+
 /* Orbit Icon Buttons */
 .orbit-icon {
   position: absolute;
