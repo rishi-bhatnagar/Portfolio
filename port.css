@@ -1038,3 +1038,28 @@ body::after {
     justify-content: center;
   }
 }
+
+/* 🔥 Force profile pic size fix for mobile */
+@media (max-width: 768px) {
+  .avatar-container {
+    width: 260px !important;
+    height: 260px !important;
+  }
+
+  .sun-core {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .avatar-container {
+    width: 220px !important;
+    height: 220px !important;
+  }
+
+  .sun-core {
+    width: 170px !important;
+    height: 170px !important;
+  }
+}
